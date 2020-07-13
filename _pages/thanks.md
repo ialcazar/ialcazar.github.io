@@ -1,7 +1,7 @@
 ---
-title: Thank you
-subtitle: Your message was sent successfully.
-description: Duet is a beautiful Jekyll portfolio theme.
+title: Gracias
+subtitle: Tu mensaje ha sido enviado correctamente.
+description:
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
