@@ -12,8 +12,8 @@ menu_settings:
       url: '/'
     #- title: 'Blog'
     #  url: '/blog/'
-    #- title: 'Recursos'
-    #  url: '/recursos'
+    - title: 'Videos'
+      url: '/recursos'
     # title: 'Contact'
     #  url: '/contact'
 
@@ -35,7 +35,7 @@ contact_settings:
 social_settings:
   facebook_url: ''
   twitter_url: 'https://twitter.com/ialcazar'
-  instagram_url: ''
+  instagram_url: 'https://www.instagram.com/israelalcazar/'
   snapchat_url: ''
   youtube_url: ''
   google-plus_url: ''
