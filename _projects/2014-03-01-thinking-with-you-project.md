@@ -47,9 +47,3 @@ Puedes entender un poco mejor sobre nuestra cultura en este video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c-Qh-04ZC44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-
-## ¿Te parece interesante?
-
-Si te parece interesante todo esto y quieres que charlemos puedes contactarnos directamente en nuestra web:
-
-<a href="thinkingwithyou.com" class="button button--large" target="_blank">Thinking With You</a>
