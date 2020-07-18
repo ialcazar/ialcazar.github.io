@@ -14,6 +14,8 @@ menu_settings:
     #  url: '/blog/'
     - title: 'Videos'
       url: '/recursos'
+    - title: 'Mis Proyectos'
+      url: '/projects'
     # title: 'Contact'
     #  url: '/contact'
 
