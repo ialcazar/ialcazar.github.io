@@ -28,8 +28,10 @@
 		&:hover {
 
 			.portfolio-item__content {
-				opacity: 1;
-				visibility: visible;
+				//opacity: 1;
+				//visibility: visible;
+				opacity: 0;
+				visibility: hidden;
 			}
 		}
 	}
@@ -50,8 +52,8 @@
 	justify-content: center;
 	background: rgba($overlay-background-color, $overlay-opacity);
 
-	opacity: 0;
-	visibility: hidden;
+	//opacity: 0;
+	//visibility: hidden;
 	@include transition(all 0.2s ease-in-out);
 }
 
