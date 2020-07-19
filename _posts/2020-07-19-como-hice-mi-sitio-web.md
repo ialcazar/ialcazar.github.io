@@ -1,5 +1,5 @@
 ---
-title: 'Como he creado este blog'
+title: 'Como he creado mi sitio web'
 date: 2020-07-19 00:00:00
 description: Te cuento como he creado este blog paso a paso.
 featured_image: '/images/posts/01/israel-alcazar-ingeniero-humanista-web.png'
