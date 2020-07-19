@@ -167,7 +167,8 @@ font_settings:
 
 advanced_settings:
   ajax_loading: true
-  analytics_code: "UA-49510982-1"
+  analytics_code: 
+  google-analytics: "UA-49510982-1"
   custom_styles: ""
   header_js: ""
   footer_js: ""
