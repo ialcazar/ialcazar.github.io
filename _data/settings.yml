@@ -10,8 +10,8 @@ menu_settings:
   menu_items:
     - title: 'Sobre Mi'
       url: '/'
-    #- title: 'Blog'
-    #  url: '/blog/'
+    - title: 'Blog'
+      url: '/blog/'
     - title: 'Videos'
       url: '/recursos'
     - title: 'Mis Proyectos'

@@ -17,19 +17,22 @@
 	padding: $grid-spacing/2;
 	float: left;
 	width: 50%;
+
 }
 
 .blog-post__link {
 	position: relative;
 	display: block;
+	
 
 	@include mq(tabletl) {
 
 		&:hover {
 
 			.blog-post__content {
-				opacity: 1;
-				visibility: visible;
+				//Effect changed
+				opacity: 0;
+				visibility: hidden;
 			}
 		}
 	}
@@ -50,8 +53,11 @@
 	justify-content: center;
 	background: rgba($overlay-background-color, $overlay-opacity);
 
-	opacity: 0;
-	visibility: hidden;
+	//Effect changed
+	opacity: 1;
+	visibility: visible;
+	//opacity: 0;
+	//visibility: hidden;
 	@include transition(all 0.2s ease-in-out);
 }
 

@@ -1,16 +1,14 @@
 ---
 layout: default
 title: Blog
-description: Duet includes a simple blog with pagination.
-featured_image: /images/social.jpg
 ---
 
 <section class="intro">
 
 	<div class="wrap">
-
-		<h1>What we've been up to.</h1>
-		<p>Duet includes a simple blog with pagination.</p>
+		<h1>{{ page.title }} </h1>
+		<h2>Tecnología y Personas </h2>
+		<p>Me gusta escribir en este blog sobre tecnología y personas principalmente. Para temas relacionados con mi parte mas profesional puedes visitar (ThinkingWithYou.)[thikingwithyou.com] </p>
 
 	</div>
 
@@ -54,10 +52,10 @@ featured_image: /images/social.jpg
 	<div class="wrap">
 
 		{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path | relative_url }}" class="button button--light pagination__prev"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
+		<a href="{{ paginator.previous_page_path | relative_url }}" class="button button--light pagination__prev"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Post Nuevos</span></a>
 		{% endif %}
 		{% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path | relative_url }}" class="button button--light pagination__next"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		<a href="{{ paginator.next_page_path | relative_url }}" class="button button--light pagination__next"><span>Post Antiguos</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 		{% endif %}
 
 	</div>
