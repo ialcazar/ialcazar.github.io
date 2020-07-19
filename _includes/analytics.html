@@ -1,10 +1,12 @@
-<!-- Google Tag Manager -->
+{% if site.data.settings.advanced_settings.google-tag-manager %}
+<!-- Google Tag Manager IAR -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M6ZX9M2');</script>
-<!-- End Google Tag Manager -->
+})(window,document,'script','dataLayer','{{ site.data.settings.advanced_settings.google-tag-manager }}');</script>
+<!-- End Google Tag Manager IAR -->
+{% endif %}
 
 {% if site.data.settings.advanced_settings.google-analytics %}
 <!-- Google Analytics IAR -->
@@ -16,6 +18,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  ga('create', '{{ site.data.settings.advanced_settings.google-analytics }}', 'auto');
  ga('send', 'pageview');
-
 </script>
+<!-- End Google Analytics IAR -->
  {% endif %}

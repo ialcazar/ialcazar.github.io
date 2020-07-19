@@ -169,6 +169,7 @@ advanced_settings:
   ajax_loading: true
   analytics_code: 
   google-analytics: "UA-49510982-1"
+  google-tag-manager: "GTM-M6ZX9M2"
   custom_styles: ""
   header_js: ""
   footer_js: ""
