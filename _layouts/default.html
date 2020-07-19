@@ -58,6 +58,11 @@
 	{{ site.data.settings.advanced_settings.analytics_code }}
 	{% endif %}
 
+	<!-- Google Analytics IAR -->
+	{% if jekyll.environment == 'production' %}
+	{% include analytics.html %}
+	{% endif %}
+
 	{% if site.data.settings.advanced_settings.header_js %}
 	<!-- Extra Header JS Code -->
 	{{ site.data.settings.advanced_settings.header_js }}
