@@ -1,7 +1,11 @@
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6ZX9M2"
+{% if jekyll.environment == 'production' %}
+{% if site.data.settings.advanced_settings.google-tag-manager %}
+<!-- Google Tag Manager (noscript) IAR-->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{  site.data.settings.advanced_settings.google-tag-manager }}"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<!-- End Google Tag Manager (noscript) IAR-->
+{% endif %}
+{% endif %}
 
 <header class="header">
 
